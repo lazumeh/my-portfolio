@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    margin-top: 0px;
+}
+body{
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+
+
+}
+nav li {
+    margin-right: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+h1{
+text-align: center;
+font-size: 5.3rem;
+margin: 1%;
+color: white;
+}
+
+
+p{
+    color: white;
+    font-family:DINbek;
+    margin: 25rem;
+    margin-top: 0%;
+    text-align: center;
+    line-height: 40px;
+    font-size:x-large
+
+
+ }
+
+ span{
+     color: rgb(153, 147, 147);
+
+ }
+
+ .container{
+    position: relative;
+   margin: 0%;
+   padding: 0px;
+
+
+ }
+
+ .text{
+     position: absolute;
+     top: 40%;
+     left: 50px;
+     text-align: center;
+
+ }
+
+ img{
+    width: 100%;
+    height: auto;
+ }
+
+ a:hover{
+     color: orange
+     
+ }
+
+
+ a:link {
+     background-color: transparent;
+   text-decoration:none;
+ }
+
+ a{
+    color: rgb(141, 145, 141);
+ }
+
+ hr{
+    color: aqua;
+    width: 50%;
+    top: 40%;
+}
+.fa{
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+}
+.fa:hover{
+    opacity: 0.7;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram{
+    background: tomato;
+    color: white;
+}
+.fa-linkedin{
+    background: skyblue;
+    color: white;
+}
+.fa-whatsapp{
+    background: greenyellow;
+    color: white;
+}
+.fa-snapchat{
+    background: gray;
+    color: white;
+}
+.fa-yahoo{
+    background: blue;
+    color: white;
+}
+.fa-bolt{
+    background: skyblue;
+    color: green;
+}
+.icons{
+    /* display: flex; */
+    text-align: center;
+    /* padding-left: 5px; */
+    margin-bottom: 400px;}
+
+    .aboutsection{
+        background-color: rgb(245, 245, 175);
+        display: flex;
+        padding: 200px;
+    }
+    .aboutpic{
+        flex: 2;
+    }
+    .abtext{
+        flex: 3;
+        padding-right: 500px;
+    }
+    #ab{
+        color: burlywood;
+        font-size: 200%;
+    }
+    .hi-name{
+        text-align: justify;
+        color: blue;
+        line-height: 20px;
+        margin: 500px;
+    }
+    h3{
+        color: #070707;
+        text-align: justify;
+        font-size: 130%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    .contact{
+        /* padding-left: 500; */
+        text-align: left;
+        font-size: 100%;
+    }
+    p2{
+        color: aqua;
+        text-align: left;
+        font-size: 100%;
+    }
+    .con{
+        padding-left: 500px;
+        text-align: justify;
+    }
+    .resume{
+        color: black;
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    .skill h3{
+        flex: 2;
+    }
+    .skill{
+        padding:
+
+    }
+    .chart{
+        width: 600px;
+        height: 40px;
+        background-color: blue;
+    }
+    .html{
+        width: 450px;
+        height: 40px;
+        background-color: purple;
+    }
+    .css{
+        width: 300px;
+        height: 40px;
+        background-color: purple;
+    }
+    .javascript{
+        width: 250px;
+        height: 40px;
+        background-color: purple;
+    }
+    .reactjs{
+        width: 350px;
+        height: 40px;
+        background-color: purple;
+    }
+    .material-ui{
+        width: 200px;
+        height: 40px;
+        background-color: purple;
+    }
+    .python{
+        width: 300px;
+        height: 40px;
+        background-color: purple;
+    }
+    .ibm-watson{
+        width: 500px;
+        height: 40px;
+        background-color: purple;
+    }
+
+
+
+    .career{display: flex;
+        justify-content: space-between;
+        width: 1800px;
+    }
+
+    .edu
+    {display: flex;
+    justify-content: space-between;
+    width: 850px;
+
+    }
+
+
+    .skill
+    {display: flex;
+     justify-content: space-between;
+     width: 850px;
+    }
+
+    .allresume{
+
+
+display:flex
+    }
